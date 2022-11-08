@@ -42,7 +42,16 @@ applicant3 exam3
 ```
 
 ### Stage 6:
-**About:**
+**About:** Now some of the departments need more than one exam result for each applicant.
+
+**Objectives:**
+* Read an N integer from the input. This integer represents the maximum number of students for each department.
+* Read the file
+* Consider the following exam results for departments: physics and math for the Physics department, chemistry for the Chemistry department, math for the Mathematics department, computer science and math for the Engineering Department, chemistry and physics for the Biotech department.
+* As in the previous stage, the exams are listed in the following order for each applicant: physics, chemistry, math, computer science.
+* For the departments that need several exams, calculate the **mean score** and use it to rank the applicants. Otherwise, use the result for a single exam.
+* Keep the rest of the steps the same as in the previous stage (once again, there should be no more than N accepted applicants for each department; use the same principles for sorting).
+* Instead of printing the results (you may do it if you want), output the admission lists to files. Create a file for each department, name it %department_name%.txt, for example, physics.txt. Write the names of the students accepted to the department and their mean finals score to the corresponding file (one student per line).
 
 ### Stage 7:
-**About:**
+**About:** Now the applicants can try to pass a special university admission exam. If the candidate's score on this exam is better than their mean score for the finals required by a Department, the university is ready to discard the results of the finals.
