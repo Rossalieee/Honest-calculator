@@ -48,7 +48,7 @@ This projects implements knowledge about multiline strings, syntax basics, stora
 
 ### [Simple Chatty Bot](https://hyperskill.org/projects/97)
 
-Are you lonely? Now, you don't have to! You can always talk to a bot!
+Are you lonely? Now you don't have to! You can always talk to a bot!
 
 This project goal is to create simple chatty bot which can keep you company if you ever feel lonely. It will also guess your age and test your knowledge about programming. Isn't it wonderful!?
 
