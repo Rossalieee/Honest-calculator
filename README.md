@@ -81,7 +81,7 @@ Project gives an opportunity to learn some Markdown basics and file handling.
 
 
 ### [Hangman](https://hyperskill.org/projects/69?track=2)
-This project is about programming Hangman game.
+This project is about programming a Hangman game.
 
 Hangman is a popular puzzle game where you try to guess a word letter by letter. If you fail, you'll be “hanged”. If you win, you'll survive.
 
