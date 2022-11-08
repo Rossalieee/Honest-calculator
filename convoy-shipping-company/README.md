@@ -3,6 +3,12 @@ You're employed at "Convoy", a family transport company. Things are not going we
 
 This project helps to learn how to: export data from an XLSX file to a CSV format, prepare the data to populate an SQLite database, how scoring machines are built, and how to select which data should be exported to other systems (in JSON and XML formats).
 
+**Libraries/tools used**:
+* Pandas
+* Sqlite3
+* csv
+* json
+
 ## Project Stages
 ### Stage 1:
 **About:** "Convoy" experiences financial problems. You suggested making a single database that contains every company's vehicle to plan the logistics, and your management agreed. You will take a closer look at different parameters: the engine capacity, the maximum load, the fuel consumption. The data has already been collected, all you need is to output it to a CSV file.
@@ -16,9 +22,6 @@ This project helps to learn how to: export data from an XLSX file to a CSV forma
 * Program should output the following message: `X lines were imported to *%file_name%.csv*` or `1 line was imported to *%file_name%.csv*` , where X is the number of imported lines.
 * For example: `4 lines were imported to convoy.csv`
 
-**Used libraries/tools**:
-* Pandas
-
 ### Stage 2:
 **About:** As usual, no one consulted the expert (you) on how to fill the table. Another employee mixed things up and just copy-pasted entries from various documents with different formats. Luckily, no data is missing! You definitely need to clear the data from the prefixes and suffixes so that you can calculate them later. Also, you are not sure that this is the final Excel version. So, your program must include previous functionality.
 
@@ -31,9 +34,6 @@ This project helps to learn how to: export data from an XLSX file to a CSV forma
 * Program should output the following message for the converted CSV file: `X cells were corrected` or `1 cell was corrected`, where X is the number of corrected cells. Include the output file name.
 For example: `4 cells were corrected in *%file_name%[CHECKED].csv*`.
 * Display all the previous outputs for the conversions you have made earlier.
-
-**Used libraries/tools**:
-* Pandas
 
 ### Stage 3:
 **About:** You are ready to create an SQLite3 database. Your bosses have some ideas on how to use the database for scoring in the future, so be ready for that! Unfortunately, it's an offer you can't refuse... The final Excel version is not ready yet. Write an algorithm that converts a corrected CSV file into an SQLite3 database.
@@ -52,10 +52,6 @@ For example: `4 cells were corrected in *%file_name%[CHECKED].csv*`.
 For example: `4 records were inserted into *%file_name%.s3db*`.
 * Display all the previous outputs for the conversions you have made.
 
-**Used libraries/tools**:
-* Pandas
-* Sqlite3
-* csv
 
 ### Stage 4:
 **About:** Your database is ready. As you may have expected, you still don't have the final Excel version. Your boss told you that you will have to export part of the database to two different systems. You don't know which data goes where, but rumor has it you will need a scoring function for this. For now, your algorithm should export all the database entries. The first system needs the data in the JSON format.
@@ -89,12 +85,6 @@ For example: `4 records were inserted into *%file_name%.s3db*`.
 For example: `10 vehicles were saved into *%file_name%.json*`.
 * Display all the previous outputs for the conversions you have made.
 
-**Used libraries/tools**:
-* Pandas
-* Sqlite3
-* csv
-* json
-
 ### Stage 5:
 **About:** It's time to make the final transformation. You need to convert your SQLite3 database to XML. In this stage, your algorithm should export all the database entries. The final Excel file is expected next week: they promised.
 
@@ -125,12 +115,6 @@ For example: `10 vehicles were saved into *%file_name%.json*`.
 For example: `10 vehicles were saved into *file_name.xml*`.
 * Display all the previous outputs for the conversions you have made.
 
-**Used libraries/tools**:
-* Pandas
-* Sqlite3
-* csv
-* json
-
 ### Stage 6:
 **About:** The requirements for scoring function have been defined. And it looks like you have the final version of the Excel file. It's time to prepare the scoring function and export the selected entries to JSON and XML files.
 
@@ -154,12 +138,6 @@ It was found that the average route length is 450 km. Do not include the return 
 `9 vehicles were saved into *%file_name%.json*`
 `0 vehicles were saved into *%file_name%.xml*`
 * Display all the previous outputs for the conversions you have made.
-
-**Used libraries/tools**:
-* Pandas
-* Sqlite3
-* csv
-* json
 
 **Example:**
 ```
