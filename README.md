@@ -69,10 +69,33 @@ This project is all about understanding working with functions, loops and condit
 
 ![coffee-machine-example](https://user-images.githubusercontent.com/107406800/200608691-f3c464b7-fe5a-439b-90ee-50ff4beb47bb.PNG)
 
-### Markdown Editor
-### Hangman
-### Simple Tic-Tac-Toe
-### Currency Converter
+### [Markdown Editor](https://hyperskill.org/projects/162?track=2)
+
+This program allows user to input text and choose formatter to transform it. At the end given text is saved to a *.md* file.
+
+Project gives an opportunity to learn some Markdown basics and file handling.
+
+**Example:**
+
+![markdown-editor-example](https://user-images.githubusercontent.com/107406800/200625084-a533cdd9-c94a-45ec-afef-64ff47633a14.png)
+
+
+### [Hangman](https://hyperskill.org/projects/69?track=2)
+This project is about programming Hangman game.
+
+Hangman is a popular puzzle game where you try to guess a word letter by letter. If you fail, you'll be “hanged”. If you win, you'll survive.
+
+**Example:**
+
+![hangman-example](https://user-images.githubusercontent.com/107406800/200621766-a2ac0992-0fbb-4d62-bdaa-bd66fd4fee52.PNG)
+
+
+### [Simple Tic-Tac-Toe](https://hyperskill.org/projects/73?track=2)
+
+
+### [Currency Converter](https://hyperskill.org/projects/157?track=2)
+
+
 ### University Admission Procedure
 ### Password Hacker
 ### Convoy Shipping Company
