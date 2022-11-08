@@ -117,8 +117,6 @@ This projects implements many concepts of Python — basic types, variables, ari
 This project is about creating program that decides which university candidates will be accepted based on given requirements.
 It is a great opportunity to practice loops and various mathematical operations, learn how to handle files and different types of collections such as lists (including nested lists) and dictionaries.
 
-[Here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/convoy-shipping-company/README.md) you can find more information about each stage of this project
-
 You can find more info about each stage of the project [here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/university-admission-procedure/README.md)
 
 
@@ -128,6 +126,8 @@ You can find more info about each stage of the project [here](https://github.com
 
 
 ### [Password Hacker](https://hyperskill.org/projects/80?track=2)
+
+[Here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/password-hacker/README.md) you can find more information about each stage of this project
 ### [Convoy Shipping Company](https://hyperskill.org/projects/151)
 
 You're employed at "Convoy", a family transport company. Things are not going well financially, so your bosses want you to create a database to manage the company's assets in a better way and introduce scoring machines to automate some work. You will be dealing with different file formats to export data to various systems.
