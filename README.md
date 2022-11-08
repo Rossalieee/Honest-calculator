@@ -32,14 +32,18 @@ This project is aimed at the beginners. It helps to understand how to use if els
 
 **Example:**
 
-![honest-calculator-example](https://user-images.githubusercontent.com/107406800/200575642-2c05b6e4-b6b0-46c0-9876-cdb03b7dc0ed.PNG)
+![honest-calculator-example](https://user-images.githubusercontent.com/107406800/200583667-4cdd8ee3-5fd2-4b70-bfe9-e705b466fb73.PNG)
 
 
-### Zookeeper
+### [Zookeeper](https://hyperskill.org/projects/98)
+
+
 
 **Example:**
 
-![zookepper-example](https://user-images.githubusercontent.com/107406800/200579746-ed253b26-d79c-48de-814c-5725e77ded6f.PNG)
+
+![zookepper-example](https://user-images.githubusercontent.com/107406800/200583094-7b3fd30b-27ed-4764-9a97-5040532d1b0a.PNG)
+
 
 ### Simple Chatty Bot
 ### Coffee Machine
