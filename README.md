@@ -37,15 +37,26 @@ This project is aimed at the beginners. It helps to understand how to use if els
 
 ### [Zookeeper](https://hyperskill.org/projects/98)
 
+Simple tool for monitoring animals and checking their status at the local zoo.
 
+This projects implements knowledge about multiline strings, syntax basics, storage types such as lists, and while loops.
 
 **Example:**
-
 
 ![zookepper-example](https://user-images.githubusercontent.com/107406800/200583094-7b3fd30b-27ed-4764-9a97-5040532d1b0a.PNG)
 
 
-### Simple Chatty Bot
+### [Simple Chatty Bot](https://hyperskill.org/projects/97)
+
+Are you lonely? Now, you don't have to! You can always talk to a bot!
+
+This project goal is to create simple chatty bot which can keep you company if you ever feel lonely.
+
+**Example:**
+
+![chatty-bot-example](https://user-images.githubusercontent.com/107406800/200595556-00effa93-5ba6-425a-8468-bd850f6d927e.PNG)
+
+
 ### Coffee Machine
 ### Markdown Editor
 ### Hangman
