@@ -1,4 +1,5 @@
 # Password Hacker Project
+The goal of this project is to write python program that hack login and password to connect to a given website. This project introduces socket module and gives opportunity to work with json files.
 
 **Libraries/tools used:**
 * socket
