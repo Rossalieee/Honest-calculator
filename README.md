@@ -92,8 +92,20 @@ Hangman is a popular puzzle game where you try to guess a word letter by letter.
 
 ### [Simple Tic-Tac-Toe](https://hyperskill.org/projects/73?track=2)
 
+Are you bored? So what do you say about playing some tic-tac-toe? You don't even need paper and pencil. Just take your friend and start playing!
+
+This project gives opportunity to learn about exception handling, list comprehension and nestet lists.
+
+**Example:**
+
+![tic-tac-toe-example](https://user-images.githubusercontent.com/107406800/200628795-c8b11d1e-85d2-4f0b-a270-6041a62c0ec2.PNG)
+
 
 ### [Currency Converter](https://hyperskill.org/projects/157?track=2)
+
+The aim of this project is to write a currency converter program that uses a third-party service. The program calculates the amount of money user get by converting one currency to another.
+
+This projects implements many concepts of Python — basic types, variables, arithmetic operations, loops, and working with files. And some more advanced features like: JSON format, caching, and how to work with the network. 
 
 
 ### University Admission Procedure
