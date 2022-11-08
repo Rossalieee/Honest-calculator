@@ -59,3 +59,12 @@ In this stage, you should write a program that:
 * Use the found login and the found letter to find the second letter of the password.
 * Repeat until you receive the ‘success’ message.
 * Finally, your program should print the combination of login and password in JSON format. The examples show two ways of what the output can look like.
+
+**Example:**
+```
+> python hack.py localhost 9090
+{
+    "login" : "superuser",
+    "password" : "aDgT9tq1PU0"
+}
+```
