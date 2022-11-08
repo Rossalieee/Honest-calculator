@@ -1,7 +1,7 @@
 students_limit = int(input())
 all_applicants = []
 
-with open('applicants.txt') as infile:
+with open('applicants_7.txt') as infile:
     for line in infile:
         all_applicants.append(line.strip().split(' '))
 
