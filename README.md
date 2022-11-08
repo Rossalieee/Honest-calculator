@@ -134,4 +134,4 @@ You're employed at "Convoy", a family transport company. Things are not going we
 
 This project helps to learn how to: export data from an XLSX file to a CSV format, prepare the data to populate an SQLite database, how scoring machines are built, and how to select which data should be exported to other systems (in JSON and XML formats).
 
-
+[More info about each stage](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/convoy-shipping-company/README.md)
