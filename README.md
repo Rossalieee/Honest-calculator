@@ -98,7 +98,7 @@ This project gives opportunity to learn about exception handling, list comprehen
 
 **Example:**
 
-![tic-tac-toe-example](https://user-images.githubusercontent.com/107406800/200628795-c8b11d1e-85d2-4f0b-a270-6041a62c0ec2.PNG)
+![tic-tac-toe-example](https://user-images.githubusercontent.com/107406800/200634564-0f96a2f0-976d-46e7-843b-4e954770d2e8.PNG)
 
 
 ### [Currency Converter](https://hyperskill.org/projects/157?track=2)
@@ -109,7 +109,7 @@ This projects implements many concepts of Python — basic types, variables, ari
 
 **Example:**
 
-![currency-converter-example](https://user-images.githubusercontent.com/107406800/200632921-61a29d76-6289-444f-ab6e-d09130517684.PNG)
+![currency-converter-example](https://user-images.githubusercontent.com/107406800/200634495-54fa2cb1-0b16-4fc5-be7f-43e75fa8187f.PNG)
 
 
 ### University Admission Procedure
