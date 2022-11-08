@@ -112,6 +112,16 @@ This projects implements many concepts of Python — basic types, variables, ari
 ![currency-converter-example](https://user-images.githubusercontent.com/107406800/200634495-54fa2cb1-0b16-4fc5-be7f-43e75fa8187f.PNG)
 
 
-### University Admission Procedure
-### Password Hacker
-### Convoy Shipping Company
+### [University Admission Procedure](https://hyperskill.org/projects/163?track=2)
+
+This project is about creating program that decides which university candidates will be accepted based on given requirements.
+It is a great opportunity to practice loops and various mathematical operations, learn how to handle files and different types of collections such as lists (including nested lists) and dictionaries.
+
+
+**Example:**
+
+![university-example](https://user-images.githubusercontent.com/107406800/200681517-bd208993-d127-44bb-b819-a244ffb32e02.PNG)
+
+
+### [Password Hacker](https://hyperskill.org/projects/80?track=2)
+### [Convoy Shipping Company](https://hyperskill.org/projects/151)
