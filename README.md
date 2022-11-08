@@ -105,7 +105,11 @@ This project gives opportunity to learn about exception handling, list comprehen
 
 The aim of this project is to write a currency converter program that uses a third-party service. The program calculates the amount of money user get by converting one currency to another.
 
-This projects implements many concepts of Python — basic types, variables, arithmetic operations, loops, and working with files. And some more advanced features like: JSON format, caching, and how to work with the network. 
+This projects implements many concepts of Python — basic types, variables, arithmetic operations, loops, and working with files. And some more advanced features like: JSON format, how to work with the network and how to use requests module.
+
+**Example:**
+
+![currency-converter-example](https://user-images.githubusercontent.com/107406800/200632921-61a29d76-6289-444f-ab6e-d09130517684.PNG)
 
 
 ### University Admission Procedure
