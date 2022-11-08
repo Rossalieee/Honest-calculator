@@ -94,7 +94,7 @@ Hangman is a popular puzzle game where you try to guess a word letter by letter.
 
 Are you bored? So what do you say about playing some tic-tac-toe? You don't even need paper and pencil. Just take your friend and start playing!
 
-This project gives opportunity to learn about exception handling, list comprehension and nestet lists.
+This project gives opportunity to learn about exception handling, list comprehension and nested lists.
 
 **Example:**
 
