@@ -117,6 +117,8 @@ This projects implements many concepts of Python — basic types, variables, ari
 This project is about creating program that decides which university candidates will be accepted based on given requirements.
 It is a great opportunity to practice loops and various mathematical operations, learn how to handle files and different types of collections such as lists (including nested lists) and dictionaries.
 
+You can find more info about each stage of the project [here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/university-admission-procedure/README.md)
+
 
 **Example:**
 
