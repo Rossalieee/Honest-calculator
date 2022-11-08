@@ -127,7 +127,10 @@ You can find more info about each stage of the project [here](https://github.com
 
 ### [Password Hacker](https://hyperskill.org/projects/80?track=2)
 
+The goal of this project is to write python program that hack login and password to connect to a given website. This project introduces socket module and gives opportunity to work with json files.
+
 [Here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/password-hacker/README.md) you can find more information about each stage of this project
+
 ### [Convoy Shipping Company](https://hyperskill.org/projects/151)
 
 You're employed at "Convoy", a family transport company. Things are not going well financially, so your bosses want you to create a database to manage the company's assets in a better way and introduce scoring machines to automate some work. You will be dealing with different file formats to export data to various systems.
