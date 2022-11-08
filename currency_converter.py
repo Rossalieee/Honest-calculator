@@ -1,5 +1,6 @@
 import requests
 
+print("What currency do you have?")
 my_curr = input().lower()
 json_dict = requests.get(f'http://www.floatrates.com/daily/{my_curr}.json').json()
 cache = []
@@ -19,11 +20,13 @@ def calculate_result(curr, amt):
 
 
 while True:
+    print("Enter currency you want to get:")
     currency = input().lower()
 
     if currency == "":
         break
     else:
+        print("Enter the amount of money you want to convert:")
         amount = float(input())
         print("Checking the cache...")
 
