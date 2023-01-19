@@ -130,6 +130,7 @@ You can find more info about each stage of the project [here](https://github.com
 
 Program predicting the next word in a pseudo-sentence based on the previous words in sequence. It was the opportunity to get better understanding of natural language processing, preprocessing and NLTK python library.
 
+More info about each stage of the project [here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/text-generator/README.md)
 
 ### [Password Hacker](https://hyperskill.org/projects/80?track=2)
 
