@@ -8,3 +8,4 @@ Program predicting the next word in a pseudo-sentence based on the previous word
 
 
 ## Project Stages:
+...work in progress
