@@ -18,6 +18,7 @@ Python projects completed on Hyperskill - https://hyperskill.org/
 
 **Hard:**
 * [University Admission Procedure](#university-admission-procedure)
+* [Text Generator](#text-generator)
 
 **Challenging:**
 * [Password Hacker](#password-hacker)
@@ -123,6 +124,11 @@ You can find more info about each stage of the project [here](https://github.com
 **Example:**
 
 ![university-example](https://user-images.githubusercontent.com/107406800/200681517-bd208993-d127-44bb-b819-a244ffb32e02.PNG)
+
+
+### [Text Generator](https://hyperskill.org/projects/134)
+
+Program predicting the next word in a pseudo-sentence based on the previous words in sequence. It was the opportunity to get better understanding of natural language processing, preprocessing and NLTK python library.
 
 
 ### [Password Hacker](https://hyperskill.org/projects/80?track=2)
