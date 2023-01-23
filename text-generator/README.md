@@ -1,4 +1,4 @@
-# Text Generator Project
+# [Text Generator Project](https://hyperskill.org/projects/134)
 Program predicting the next word in a pseudo-sentence based on the previous words in sequence. Created while doing python course on hyperskill.org. General schema and guidelines were provided by the website but solution was designed on my own. It was the opportunity to get better understanding of **natural language processing**, preprocessing and NLTK python library.
 
 **Libraries/tools used:**
