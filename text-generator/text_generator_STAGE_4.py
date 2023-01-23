@@ -3,7 +3,7 @@ from nltk import bigrams
 from collections import Counter
 import random
 
-file_name = input()
+file_name = input("Enter file name: ")
 f = open(f"{file_name}", "r", encoding="utf-8")
 
 text = f.read()
