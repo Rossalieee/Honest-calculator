@@ -20,4 +20,4 @@ As the corpus will be used to "train" a probabilistic model that will predict th
 * Acquire and print the following information about the corpus under the section of the output called `Corpus statistics`:
   * the number of all tokens;
   * the number of all unique tokens, that is, the number of tokens without repetition.
-Take an integer as user input and print the token with the corresponding index. Repeat this process until the string `exit` is input. Also, make sure that the input index is actually an integer that falls in the range of the corpus. If that is not the case, print an error message and request a new input.
+* Take an integer as user input and print the token with the corresponding index. Repeat this process until the string `exit` is input. Also, make sure that the input index is actually an integer that falls in the range of the corpus. If that is not the case, print an error message and request a new input.
