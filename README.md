@@ -18,11 +18,11 @@ Python projects completed on Hyperskill - https://hyperskill.org/
 
 **Hard:**
 * [University Admission Procedure](#university-admission-procedure)
-* [Text Generator](#text-generator)
 
 **Challenging:**
 * [Password Hacker](#password-hacker)
 * [Convoy Shipping Company](#convoy-shipping-company)
+* [Text Generator](#text-generator)
 
 ## Projects Descriptions
 ### [Honest Calculator](https://hyperskill.org/projects/208?track=2)
@@ -126,12 +126,6 @@ You can find more info about each stage of the project [here](https://github.com
 ![university-example](https://user-images.githubusercontent.com/107406800/200681517-bd208993-d127-44bb-b819-a244ffb32e02.PNG)
 
 
-### [Text Generator](https://hyperskill.org/projects/134)
-
-Program predicting the next word in a pseudo-sentence based on the previous words in sequence. It was the opportunity to get better understanding of natural language processing, preprocessing and NLTK python library.
-
-More info about each stage of the project [here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/text-generator/README.md)
-
 ### [Password Hacker](https://hyperskill.org/projects/80?track=2)
 
 The goal of this project is to write python program that hack login and password to connect to a given website. This project introduces socket module and gives opportunity to work with json files.
@@ -145,3 +139,10 @@ You're employed at "Convoy", a family transport company. Things are not going we
 This project helps to learn how to: export data from an XLSX file to a CSV format, prepare the data to populate an SQLite database, how scoring machines are built, and how to select which data should be exported to other systems (in JSON and XML formats).
 
 [More info about each stage](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/convoy-shipping-company/README.md)
+
+
+### [Text Generator](https://hyperskill.org/projects/134)
+
+Program predicting the next word in a pseudo-sentence based on the previous words in sequence. It was the opportunity to get better understanding of natural language processing, preprocessing and NLTK python library.
+
+More info about each stage of the project [here](https://github.com/Rossalieee/Hyperskill-python-projects/blob/main/text-generator/README.md)
