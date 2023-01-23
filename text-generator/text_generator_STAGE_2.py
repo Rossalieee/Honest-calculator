@@ -1,7 +1,7 @@
 from nltk.tokenize import WhitespaceTokenizer
 from nltk import bigrams
 
-file_name = input()
+file_name = input("Input file name: ")
 f = open(f"{file_name}", "r", encoding="utf-8")
 
 text = f.read()
@@ -15,7 +15,7 @@ all_bigrams = len(bigram_list)
 print(f"Number of bigrams: {all_bigrams}")
 
 while True:
-    user_input = input()
+    user_input = input("Input bigram index: ")
     if user_input == "exit":
         break
     else:
