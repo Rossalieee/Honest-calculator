@@ -36,23 +36,41 @@ When referring to bigrams in this project, we divide them into two parts: **head
 * Take an integer as user input and print the bigrams with the corresponding index. Repeat this process until the string `exit` is input. Also, make sure that the input is actually an integer that falls in the range of the collection of bigrams. If that is not the case, print an error message and request a new input. 
 * Each bigram should have the format `Head: [head] Tail: [tail]` and should be printed in a new line.
 
-### Stage 3
-**About:** 
 
+### Stage 3
+**About:** A **Markov chain** is a statistical model in which the probability of each event depends on the previous event. It can be described as a set of states and transitions between them. Each transition has a probability that is determined by some kind of statistical data. In this project, a state corresponds to a token, and each transition represents going from one word of a sentence to another. The probability of transitions is calculated from the bigrams we collected in the previous stage. The basic idea of this project is that from a dictionary we can create a model that will consider all the possible transitions from one word to another and choose the most probable one based on the previous word.
+
+This is the final step where we will work on creating a Markov chain model. We will use the data prepared in the first two stages and transform it into a model. This model will contain probabilistic information that will tell us what the next word in a chain might be.
 
 **Objectives:**
+* The data should be reorganized in such a way that every head is repeated only once, and all the possible tails can be directly accessed by querying that head.
+* Instead of repeating tails every time they occur, each tail should appear only once and the number of repetitions should be stored as an integer. For example: head — `good`, tails — `night: 2`, `bye: 3`, `to: 2`, `boy: 1`.
+* Take a string as user input and print all the possible tails and their corresponding counts. If the model does not contain the specified head print the following error message `Key Error. The requested word is not in the model. Please input another word.` and ask for another until it is valid. Repeat until the string `exit` is input.
 
 
 ### Stage 4
-**About:** 
+**About:** The model can already be used to predict the next word in a chain by feeding it any head (of a bigram) from the corpus and retrieving the most probable tail from the corresponding entry. But how do we start the chain, what should be the first word?
 
+Of course, we could choose a word manually, but this is an error-prone solution because we might take a word that is not in the corpus. A better way to start is to choose a random word from the corpus and feed it to the model so that it predicts the next word.
+After the next word is acquired, it should be used to predict the following word, and so on, thus continuing the chain.
 
 **Objectives:**
+* Choose a random word from the corpus that will serve as the first word of the chain.
+* The second word should be predicted by looking up the first word of the chain in the model and choosing the most probable next word from the set of possible follow-ups.
+* The second step should be repeated until the length of the chain is 10 words, but this time, the current last word of the chain should be used to look up another probable word to continue the sentence.
+* Using the algorithm described above, generate chains consisting of 10 tokens, join the resulting tokens together, and print them as a pseudo-sentence. Keep in mind that a pseudo-sentence can consist of multiple actual sentences, so having punctuation marks inside pseudo-sentences is completely valid.
+* Generate and print 10 sentences like that. Keep in mind that every generated pseudo-sentence should be on a new line.
 
 
 ### Stage 5
-**About:** 
-
+**About:** As you can see, the algorithm is now capable of generating pseudo-random text based on Markov chains. The problem is that the resulting text does not resemble real sentences at all. First, the resulting text is always ten tokens long. Second, it does not always start with capital letters. Third, it usually does not even end with correct punctuation such as periods, exclamation marks, or question marks. We fix it in this stage.
 
 **Objectives:**
+* Make the algorithm more realistic by generating pseudo-sentences instead of just random text.
+* The sentences that are being generated should:
+ * always start with capitalized words ("This is beautiful.", "You are a great programmer!", etc.);
+ * not start with a word that ends with a sentence-ending punctuation mark ("Okay.", "Nice.", "Good.", "Look!", "Jon!", etc.);
+ * always end with a sentence-ending punctuation mark like `.`, `!`, or `?`;
+ * should not be shorter than 5 tokens.
+* Generate and print exactly 10 pseudo-sentences that meet these criteria. A pseudo-sentence should end when the first sentence-ending punctuation mark is encountered after the minimal sentence length (5 tokens) is reached.
 
