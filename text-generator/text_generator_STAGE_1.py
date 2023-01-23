@@ -1,6 +1,6 @@
 from nltk.tokenize import WhitespaceTokenizer
 
-file_name = input()
+file_name = input("Input file name: ")
 f = open(f"{file_name}", "r", encoding="utf-8")
 
 text = f.read()
@@ -15,7 +15,7 @@ All tokens: {all_tokens}
 Unique tokens: {unique_tokens}""")
 
 while True:
-    user_input = input()
+    user_input = input("Input token index: ")
     if user_input == "exit":
         break
     else:
